@@ -1,0 +1,13 @@
+Em tìm được tài liệu nói rằng: phép dịch chuyển bít qua phải của số nguyên (integers) có 32bit có thể dich chuyển nhiều hơn 5 bit cuối có thể được dùng: nguyên văn "Shift operators convert their operands to 32-bit integers in big-endian order and return a result of the same type as the left operand. The right operand should be less than 32, but if not only the low five bits will be used." 
+
+link từ: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators
+
+từ 2005-2016 Mozilla Developer Network and individual contributors.
+
+<< (Left shift)
+	Dịch chuyển qua trái các số 0 sẽ được them vào bên phải, làm tăng hoăc đổi dấu.
+>> (Sign-propagating right shift)
+	Dịch chuyển qua phải các số 1 sẽ được them vào bên trái, làm giảm, không đổi dấu.
+>>> (Zero-fill right shift)
+Dịch chuyển qua phải các số 0 sẽ được them vào bên trái, làm giảm,  có thể đổi dấu.
+
